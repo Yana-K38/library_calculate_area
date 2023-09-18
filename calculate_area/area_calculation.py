@@ -1,11 +1,12 @@
 import math
+from abc import ABC, abstractmethod
 
 
-class Shape:
+class Shape(ABC):
     """
     Абстрактный базовый класс для представления геометрических фигур и выполнения операций с ними.
     """
-
+    @abstractmethod
     def calculate_area(self):
         """
         Абстрактный метод для вычисления площади фигуры.
