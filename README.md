@@ -19,7 +19,7 @@ pip install library_calculate_area
 ##### Круг
 Для создания объекта круга и вычисления его площади, выполните следующий код:
 ```
-from library_calculate_area import Circle
+from calculate_area.area_calculation import Circle
 circle = Circle(5)
 area = circle.calculate_area()
 print(f"Площадь круга: {area}")
@@ -27,7 +27,7 @@ print(f"Площадь круга: {area}")
 ##### Треугольник
 Для создания объекта треугольника и вычисления его площади, а также проверки, является ли он прямоугольным, выполните следующий код:
 ```
-from library_calculate_area import Triangle
+from calculate_area.area_calculation import Triangle
 triangle = Triangle(3, 4, 5)
 area = triangle.calculate_area()
 is_right_triangle = triangle.right_triangle()
