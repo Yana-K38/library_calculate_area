@@ -1,5 +1,5 @@
-import unittest
 import math
+import unittest
 
 from calculate_area.area_calculation import Triangle
 

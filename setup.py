@@ -6,10 +6,9 @@ setuptools.setup(
     author="Yana",
     description="A library that can calculate the area of a circle by radius and a triangle on three sides.",
     url="https://github.com/Yana-K38/library_calculate_area/tree/main",
-    readme = "README.md",
+    readme="README.md",
     packages=setuptools.find_packages(),
-    install_requires=[
-    ],
+    install_requires=[],
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Developers",
